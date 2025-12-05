@@ -8,3 +8,4 @@ numpy
 scipy
 netCDF4
 h5netcdf
+httpx==0.25.2
