@@ -15,10 +15,3 @@ services:
           name: flood-db
           property: connectionString
     healthCheckPath: /health
-
-# Database (PostgreSQL)
-databases:
-  - name: flood-db
-    plan: free
-    databaseName: flood_predictions
-    user: flood_user
